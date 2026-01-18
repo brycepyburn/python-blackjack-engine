@@ -147,10 +147,8 @@ def play(mode):
   else:
     return("YOU WIN.")
 
-
 # Uncomment the single line below to play a single game of Blackjack vs the computer.
 # print(f"\n{play("play")}")
-
 
 # Uncomment the code block below to simulate my engine vs the computer.
 winCount = 0
