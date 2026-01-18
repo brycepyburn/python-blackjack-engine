@@ -24,4 +24,4 @@ The engine includes an option to play the game manually and one to simulate the 
 ## Technical Implementation
 The algorithm was coded in Python and utilizes the random library.
 * [Link to code](blackjack-sim.py)
-* [Back to Portfolio](https://brycepyburn.github.io/)
+* [⬅️ Back to My Portfolio](https://brycepyburn.github.io/)
