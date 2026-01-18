@@ -85,6 +85,7 @@ def playerLogic(playerScore, deck, dealerScore, playerHand, dealerHand):
     if (arr[i] > 0 and cardOptions[i] != "10"):
       dec.remove(cardOptions[i])
       evHit += arr[i] * playerStand(aceLogic(playerHand + [cardOptions[i]]), dec, dealerScore, dealerHand)
+      # Given 2-player game & deck shuffle per game iteration, there is never a scenario in which the deck is depleted of all 10s and Jacks.
     elif (arr[i] > 0 and cardOptions[i] == "10"):
       dec.remove("Jack")
       evHit += arr[i] * playerStand(aceLogic(playerHand + [cardOptions[i]]), dec, dealerScore, dealerHand)
