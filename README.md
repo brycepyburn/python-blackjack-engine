@@ -1,7 +1,7 @@
 # A Bayesian Look-Ahead Heuristic for Blackjack
 
 ## Project Overview
-This project dervies a computational decision-engine for a Blackjack game (1 player vs dealer). Unlike a standard strategy chart, this algorithm employs a one-step look-ahead policy to determine whether the player should hit or stand at any possible game state. The algorithm does not implement splitting capabilities. 
+This project builds a computational decision engine for a Blackjack game (1 player vs dealer). Unlike a standard strategy chart, this algorithm employs a one-step look-ahead policy to determine whether the player should hit or stand at any possible game state. The algorithm does not implement splitting capabilities. 
 
 ## Algorithm Specifics and One-Step Heuristic
 The algorithm tracks the composition of the 52-card deck throughout each game iteration. Before each player decision, it analytically calculates the probability distribution of the next card drawn. This allows for strategies to be altered dynamically, based on which cards are already shown. 
